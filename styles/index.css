@@ -1,0 +1,92 @@
+.backgroundColor {
+    background-color:  #f2e6ff; 
+}
+
+.screen {
+    display:flex; 
+    min-height: 100vh; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.container {
+    display: flex;
+    min-width: 1000px;
+    min-height: 600px;
+    box-shadow: 0px 0px 32px rgba(3, 150, 10, 0.5);
+}
+
+.purpleBox {
+    background-color: #d9b3ff;
+    display: flex;
+    flex-grow: 2; 
+    justify-content: center;
+    align-items: center;
+}
+
+.blueBox {
+    display: flex; 
+    background-color: #e6f2ff;
+    flex-grow: 1;
+    position: relative;
+    justify-content: center; 
+    align-items: center;
+}
+
+.img {
+    display: flex;  
+    position: absolute; 
+    right: 30px;
+    width: 400px;
+}
+
+.purpleText {
+    color: #6666ff; 
+    font-size: 20px; 
+}
+
+.form {
+    position: absolute; 
+}
+
+.column {
+    flex-direction: column; 
+    display: flex; 
+    margin-right: 48px;
+}
+
+.flexBetween {
+    display: flex; 
+    justify-content: space-between;
+
+}
+
+.button {
+    background-color:#6666ff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    border-color: #6666ff; 
+    width: 202px;
+    height: 48px;
+    color: #d9b3ff; 
+    font-size: 20px; 
+}
+
+.button:hover {
+    color: #e6f2ff; 
+}
+
+.buttonCenter {
+margin: auto;
+}
+
+.margin10 {
+    margin: 10px; 
+}
+
+.input {
+    padding: 10px; 
+}
+
+
